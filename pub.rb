@@ -8,6 +8,9 @@ def initialize (name, till, drinks)
 @drinks = drinks
 end
 
+def count_drinks
+  return @drinks.length
+end
 
 
 end

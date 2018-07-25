@@ -21,5 +21,9 @@ def test_get_till_amount
   assert_equal(100, @pub.till)
 end
 
+def test_get_number_of_drinks
+  assert_equal(3, @pub.count_drinks)
+end
+
 
 end
